@@ -1,3 +1,6 @@
+import os
+from datetime import datetime
+
 import pytest
 from selenium import webdriver
 
@@ -16,3 +19,17 @@ def setup(request):
     driver.maximize_window()
     yield driver
     driver.quit()
+
+def pytest_configure(config):
+    config._metadata['Project Name'] = 'OpenCart'
+    config._metadata['Module name'] = 'Reg'
+    config._metadata['Tester Name'] = 'Max'
+
+@pytest.mark.optionalhook
+def pytest_metadata(metadata):
+    metadata.pop("PYTHON_HOME",None)
+    metadata.pop("Plugins",None)
+
+@pytest.hookimpl(tryfirst=True)
+def pytest_configure(config):
+    config.option.htmlpath = os.path.abspath(os.curdir)+"\\reports\\"+datetime.now().strftime("%Y%m%d-%H%M%S")+".html"

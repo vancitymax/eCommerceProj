@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e965ba9-1866-45e6-bb81-70086209d268" name="Changes" comment="adding requirements.txt">
-      <change afterPath="$PROJECT_DIR$/configurations/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageObjects/AccountRegistrationPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageObjects/HomePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/randomeString.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/readProperties.py" afterDir="false" />
+    <list default="true" id="0e965ba9-1866-45e6-bb81-70086209d268" name="Changes" comment="Added configuration file,configParser,few pageobjects and coftest.py">
+      <change afterPath="$PROJECT_DIR$/utilities/customLogger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Maksym/PycharmProjects/eCommerceProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1745239773518</updated>
       <workItem from="1745239774545" duration="1563000" />
-      <workItem from="1745322825937" duration="4180000" />
+      <workItem from="1745322825937" duration="4600000" />
+      <workItem from="1745480618629" duration="3802000" />
     </task>
     <task id="LOCAL-00001" summary="adding requirements.txt">
       <option name="closed" value="true" />
@@ -91,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745240203240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added configuration file,configParser,few pageobjects and coftest.py">
+      <option name="closed" value="true" />
+      <created>1745327322612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745327322612</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding requirements.txt" />
+    <MESSAGE value="Added configuration file,configParser,few pageobjects and coftest.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added configuration file,configParser,few pageobjects and coftest.py" />
   </component>
 </project>
